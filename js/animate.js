@@ -41,9 +41,6 @@ function init() {
   };
 
   baseSprite.src = 'textures/sprites/ball.png';
-
-  //
-
   window.addEventListener( 'resize', onWindowResize, false );
 
 }
@@ -157,9 +154,7 @@ function loadMolecule( url ) {
       object.updateMatrix();
 
       root.add( object );
-
       objects.push( object );
-
     }
 
     positions = geometryBonds.getAttribute( 'position' );

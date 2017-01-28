@@ -54,6 +54,9 @@ html, body {
   color: #210439;
   margin-top:    120px;
   margin-bottom: 120px;
+  height: 100%;
+  width: 100%;
+  display: block;
 }
 
 .main-header h1{
